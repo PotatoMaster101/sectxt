@@ -1,0 +1,21 @@
+[package]
+authors.workspace = true
+categories.workspace = true
+description.workspace = true
+edition.workspace = true
+keywords.workspace = true
+license.workspace = true
+name = "sectxt-shared"
+readme.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+chrono = { workspace = true }
+sectxt-core = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+uuid = { workspace = true }
+
+[lints]
+workspace = true

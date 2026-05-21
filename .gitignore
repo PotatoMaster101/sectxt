@@ -1,0 +1,20 @@
+# cargo
+*.pdb
+**/*.rs.bk
+**/mutants.out*/
+Cargo.lock
+debug
+target
+
+# editor
+.idea/
+.vscode/
+
+# system
+.DS_Store
+
+# terraform
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.terraform/
